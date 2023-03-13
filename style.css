@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:  #f8f8f8;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.important {
+    color: red;
+    font-weight: 700;
+}
+
+input,
+button,
+textarea {
+    outline: none;
+    border: none;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 10px;
+}
+
+.comments {
+    margin: auto;
+}
+
+.comments h2 {
+    border-bottom: 1px solid #000;
+}
+
+.comment__item {
+    margin: auto;
+    width: 95%;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.wrapper h3 {
+    margin-right: 30px;
+    margin-left: 30px;
+    color: blue;
+}
+
+.wrapper span {
+    color: rgb(114, 110, 110);
+}
+
+.comment {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid gray;
+}
+
+.comment p {
+    text-align: justify;
+    width: 92%;
+}
+
+.comment span {
+    font-size: 25px;
+}
+
+.material-symbols-outlined {
+    font-size: 20px;
+    padding: 8px;
+    border-radius: 10px;
+    margin: auto;
+    cursor: pointer;
+}
+
+.like {
+    margin-left: 30px;
+}
+
+.block-center {
+    background-color: transparent;
+    box-shadow: 0 0 15px #303030;
+    width: 700px;
+    margin: 20px auto;
+    padding: 10px;
+    font-size: 16px;
+}
+
+form {
+    text-align: center;
+}
+
+textarea {
+    width: 250px;
+    height: 150px;
+    margin: 10px 0;
+    resize: none;
+    font-size: 16px;
+    padding: 8px;
+}
+
+form h3 {
+    text-align: left;
+    margin-left: 30px;
+    color: #000;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+input[type="date"] {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+}
+
+.block-center input {
+    padding: 8px;
+    width: 500px;
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.block-center textarea {
+    border: 1px solid rgb(186 187 188);
+    border-radius: 2px;
+    width: 500px;
+}
+
+.block-center input {
+    border: 1px solid rgb(186 187 188);
+    border-radius: 2px;
+}
+
+input:focus,
+input:active,
+input:hover,
+textarea:focus,
+textarea:active,
+textarea:hover{
+    outline: none;
+    border-color: aquamarine;
+    box-shadow: 0 0 15px rgb(186 187 188);
+}
+
+.block-center button {
+    padding: 8px;
+    width: 200px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #2ac1a0;
+    background-color: transparent;
+    text-align: center;
+    border: 1px solid #2ac1a0;
+}
+
+button:focus,
+button:active,
+button:hover{
+    background-color: rgb(206, 221, 235);
+    cursor: pointer;
+}
+
+@media(max-width: 330px) {
+    .wrapper h3 {
+        margin-right: 10px;
+    }
+}
